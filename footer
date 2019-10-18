@@ -1,0 +1,142 @@
+<script src="https://assets.squarewebsites.org/sqs-map-utils/init.min.js"></script>
+<script>
+var a=['cXVlcnlTZWxlY3Rvcg==','Y3JlYXRlRWxlbWVudA==','c2NyaXB0','c3Jj','P2NhY2hlPQ==','Z2V0VGltZQ==','c3Vic3Ry','YXBwZW5kQ2hpbGQ=','c2VsZg==','dG9w','aG9zdG5hbWU=','c3F1aWQtcGVwcGVyLW5zejYuc3F1YXJlc3BhY2UuY29t','ZG9jdW1lbnQ=','Z2V0RWxlbWVudEJ5SWQ=','bWFwLXV0aWxzLWFkbWlu','aHR0cHM6Ly9hc3NldHMuc3F1YXJld2Vic2l0ZXMub3JnL3Nxcy1tYXAtdXRpbHMvbWFwLXV0aWxzLWFkbWluLm1pbi5qcw==','Z2V0RWxlbWVudHNCeVRhZ05hbWU=','aGVhZA==','bG9n','V3JvbmcgZG9tYWlu'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0xdc));var b=function(c,d){c=c-0x0;var e=a[c];if(b['WTIqvz']===undefined){(function(){var f;try{var g=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');f=g();}catch(h){f=window;}var i='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';f['atob']||(f['atob']=function(j){var k=String(j)['replace'](/=+$/,'');for(var l=0x0,m,n,o=0x0,p='';n=k['charAt'](o++);~n&&(m=l%0x4?m*0x40+n:n,l++%0x4)?p+=String['fromCharCode'](0xff&m>>(-0x2*l&0x6)):0x0){n=i['indexOf'](n);}return p;});}());b['CylcET']=function(q){var r=atob(q);var s=[];for(var t=0x0,u=r['length'];t<u;t++){s+='%'+('00'+r['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(s);};b['HtrZGP']={};b['WTIqvz']=!![];}var v=b['HtrZGP'][c];if(v===undefined){e=b['CylcET'](e);b['HtrZGP'][c]=e;}else{e=v;}return e;};(function(){function c(d,e,f){if(f[b('0x0')]('#'+e)){return;};var g=document[b('0x1')](b('0x2'));g[b('0x3')]=d+b('0x4')+(new Date()[b('0x5')]()+'')[b('0x6')](0x0,0x7);g['id']=e;f[b('0x7')](g);}if(window[b('0x8')]!==window[b('0x9')]){if(location[b('0xa')]===b('0xb')){if(!window[b('0x9')][b('0xc')][b('0xd')](b('0xe'))){c(b('0xf'),b('0xe'),window[b('0x9')][b('0xc')][b('0x10')](b('0x11'))[0x0]);}}else{console[b('0x12')](b('0x13'));}}}());
+</script>
+<script>
+  window.customMapStyles = [
+          {
+            label: "Snazzy Maps Style with Categories Markers",
+            value: 11,
+            styles: {
+                  catsMarkers: { "quebec": { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-dark-2x.png", naturalWidth: 48, naturalHeight: 64 } },
+                marker: { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-light-2x.png", naturalWidth: 48, naturalHeight: 64 },
+                colors: [{ featureType: "water", elementType: "geometry", stylers: [{ color: "#333739" }] }, { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#2ecc71" }] }, { featureType: "poi", stylers: [{ color: "#2ecc71" }, { lightness: -7 }] }, { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -28 }] }, { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { visibility: "on" }, { lightness: -15 }] }, { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -18 }] }, { elementType: "labels.text.fill", stylers: [{ color: "#ffffff" }] }, { elementType: "labels.text.stroke", stylers: [{ visibility: "off" }] }, { featureType: "transit", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -34 }] }, { featureType: "administrative", elementType: "geometry", stylers: [{ visibility: "on" }, { color: "#333739" }, { weight: .8 }] }, { featureType: "poi.park", stylers: [{ color: "#2ecc71" }] }, { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#333739" }, { weight: .3 }, { lightness: 10 }] }]
+            }
+        }
+]
+</script>
+
+
+
+<!--Footer Injection Tab-->
+<!--<script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+<script src="https://assets.squarewebsites.org/sqs-map-utils/init.min.js"></script>
+<script>
+var a=['cXVlcnlTZWxlY3Rvcg==','Y3JlYXRlRWxlbWVudA==','c2NyaXB0','c3Jj','P2NhY2hlPQ==','Z2V0VGltZQ==','c3Vic3Ry','YXBwZW5kQ2hpbGQ=','c2VsZg==','dG9w','aG9zdG5hbWU=','c3F1aWQtcGVwcGVyLW5zejYuc3F1YXJlc3BhY2UuY29t','ZG9jdW1lbnQ=','Z2V0RWxlbWVudEJ5SWQ=','bWFwLXV0aWxzLWFkbWlu','aHR0cHM6Ly9hc3NldHMuc3F1YXJld2Vic2l0ZXMub3JnL3Nxcy1tYXAtdXRpbHMvbWFwLXV0aWxzLWFkbWluLm1pbi5qcw==','Z2V0RWxlbWVudHNCeVRhZ05hbWU=','aGVhZA==','bG9n','V3JvbmcgZG9tYWlu'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0xdc));var b=function(c,d){c=c-0x0;var e=a[c];if(b['WTIqvz']===undefined){(function(){var f;try{var g=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');f=g();}catch(h){f=window;}var i='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';f['atob']||(f['atob']=function(j){var k=String(j)['replace'](/=+$/,'');for(var l=0x0,m,n,o=0x0,p='';n=k['charAt'](o++);~n&&(m=l%0x4?m*0x40+n:n,l++%0x4)?p+=String['fromCharCode'](0xff&m>>(-0x2*l&0x6)):0x0){n=i['indexOf'](n);}return p;});}());b['CylcET']=function(q){var r=atob(q);var s=[];for(var t=0x0,u=r['length'];t<u;t++){s+='%'+('00'+r['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(s);};b['HtrZGP']={};b['WTIqvz']=!![];}var v=b['HtrZGP'][c];if(v===undefined){e=b['CylcET'](e);b['HtrZGP'][c]=e;}else{e=v;}return e;};(function(){function c(d,e,f){if(f[b('0x0')]('#'+e)){return;};var g=document[b('0x1')](b('0x2'));g[b('0x3')]=d+b('0x4')+(new Date()[b('0x5')]()+'')[b('0x6')](0x0,0x7);g['id']=e;f[b('0x7')](g);}if(window[b('0x8')]!==window[b('0x9')]){if(location[b('0xa')]===b('0xb')){if(!window[b('0x9')][b('0xc')][b('0xd')](b('0xe'))){c(b('0xf'),b('0xe'),window[b('0x9')][b('0xc')][b('0x10')](b('0x11'))[0x0]);}}else{console[b('0x12')](b('0x13'));}}}());
+</script>
+<script>
+  window.customMapStyles = [
+          {
+            label: "Snazzy Maps Style with Categories Markers",
+            value: 11,
+            styles: {
+                  catsMarkers: { "quebec": { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-dark-2x.png", naturalWidth: 48, naturalHeight: 64 } },
+                marker: { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-light-2x.png", naturalWidth: 48, naturalHeight: 64 },
+                colors: [{ featureType: "water", elementType: "geometry", stylers: [{ color: "#333739" }] }, { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#2ecc71" }] }, { featureType: "poi", stylers: [{ color: "#2ecc71" }, { lightness: -7 }] }, { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -28 }] }, { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { visibility: "on" }, { lightness: -15 }] }, { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -18 }] }, { elementType: "labels.text.fill", stylers: [{ color: "#ffffff" }] }, { elementType: "labels.text.stroke", stylers: [{ visibility: "off" }] }, { featureType: "transit", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -34 }] }, { featureType: "administrative", elementType: "geometry", stylers: [{ visibility: "on" }, { color: "#333739" }, { weight: .8 }] }, { featureType: "poi.park", stylers: [{ color: "#2ecc71" }] }, { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#333739" }, { weight: .3 }, { lightness: 10 }] }]
+            }
+        }
+]
+
+
+
+<!--Footer Injection Tab-->
+<!--<script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+<script src="https://assets.squarewebsites.org/sqs-map-utils/init.min.js"></script>
+<script>
+var a=['cXVlcnlTZWxlY3Rvcg==','Y3JlYXRlRWxlbWVudA==','c2NyaXB0','c3Jj','P2NhY2hlPQ==','Z2V0VGltZQ==','c3Vic3Ry','YXBwZW5kQ2hpbGQ=','c2VsZg==','dG9w','aG9zdG5hbWU=','c3F1aWQtcGVwcGVyLW5zejYuc3F1YXJlc3BhY2UuY29t','ZG9jdW1lbnQ=','Z2V0RWxlbWVudEJ5SWQ=','bWFwLXV0aWxzLWFkbWlu','aHR0cHM6Ly9hc3NldHMuc3F1YXJld2Vic2l0ZXMub3JnL3Nxcy1tYXAtdXRpbHMvbWFwLXV0aWxzLWFkbWluLm1pbi5qcw==','Z2V0RWxlbWVudHNCeVRhZ05hbWU=','aGVhZA==','bG9n','V3JvbmcgZG9tYWlu'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0xdc));var b=function(c,d){c=c-0x0;var e=a[c];if(b['WTIqvz']===undefined){(function(){var f;try{var g=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');f=g();}catch(h){f=window;}var i='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';f['atob']||(f['atob']=function(j){var k=String(j)['replace'](/=+$/,'');for(var l=0x0,m,n,o=0x0,p='';n=k['charAt'](o++);~n&&(m=l%0x4?m*0x40+n:n,l++%0x4)?p+=String['fromCharCode'](0xff&m>>(-0x2*l&0x6)):0x0){n=i['indexOf'](n);}return p;});}());b['CylcET']=function(q){var r=atob(q);var s=[];for(var t=0x0,u=r['length'];t<u;t++){s+='%'+('00'+r['charCodeAt'](t)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(s);};b['HtrZGP']={};b['WTIqvz']=!![];}var v=b['HtrZGP'][c];if(v===undefined){e=b['CylcET'](e);b['HtrZGP'][c]=e;}else{e=v;}return e;};(function(){function c(d,e,f){if(f[b('0x0')]('#'+e)){return;};var g=document[b('0x1')](b('0x2'));g[b('0x3')]=d+b('0x4')+(new Date()[b('0x5')]()+'')[b('0x6')](0x0,0x7);g['id']=e;f[b('0x7')](g);}if(window[b('0x8')]!==window[b('0x9')]){if(location[b('0xa')]===b('0xb')){if(!window[b('0x9')][b('0xc')][b('0xd')](b('0xe'))){c(b('0xf'),b('0xe'),window[b('0x9')][b('0xc')][b('0x10')](b('0x11'))[0x0]);}}else{console[b('0x12')](b('0x13'));}}}());
+</script>
+<script>
+  window.customMapStyles = [
+          {
+            label: "Snazzy Maps Style with Categories Markers",
+            value: 11,
+            styles: {
+                  catsMarkers: { "quebec": { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-dark-2x.png", naturalWidth: 48, naturalHeight: 64 } },
+                marker: { imgUrl: "/universal/images-v6/icons/cover-pages-map-marker-pin-light-2x.png", naturalWidth: 48, naturalHeight: 64 },
+                colors: [{ featureType: "water", elementType: "geometry", stylers: [{ color: "#333739" }] }, { featureType: "landscape", elementType: "geometry", stylers: [{ color: "#2ecc71" }] }, { featureType: "poi", stylers: [{ color: "#2ecc71" }, { lightness: -7 }] }, { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -28 }] }, { featureType: "road.arterial", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { visibility: "on" }, { lightness: -15 }] }, { featureType: "road.local", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -18 }] }, { elementType: "labels.text.fill", stylers: [{ color: "#ffffff" }] }, { elementType: "labels.text.stroke", stylers: [{ visibility: "off" }] }, { featureType: "transit", elementType: "geometry", stylers: [{ color: "#2ecc71" }, { lightness: -34 }] }, { featureType: "administrative", elementType: "geometry", stylers: [{ visibility: "on" }, { color: "#333739" }, { weight: .8 }] }, { featureType: "poi.park", stylers: [{ color: "#2ecc71" }] }, { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#333739" }, { weight: .3 }, { lightness: 10 }] }]
+            }
+        }
+]
+</script>
+
+<!--Header Injection Tab-->
+<link rel="stylesheet" href="https://assets.squarewebsites.org/custom-filter/custom-filter.min.css"/>
+
+<!--Footer Injection Tab-->
+<!--<script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+<script>
+  window.customFilterSettings = {
+    'targets': [{
+        container: '#block-yui_3_17_2_1_1571341228745_13149',
+        items: '.summary-item',
+        settings: {
+            view: 'modern',//dropdowns, breadcrumbs available
+            mobilePanel: {
+                enabled: true,//enables offscreen filters panel on mobile screens
+                triggerButtonName: 'Filter',// name the trigger button
+                closeOnSelect: true// 
+          position: 'left',
+          advancedMap: {
+            advancedMapContainer: '#block-yui_3_17_2_1_1571341228745_8382'                         },
+            simpleFilter: {
+                    anim: true, //enables animation
+                    show: {
+                        effect: 'slideLeft', //available anims: 'fade','scale','slideLeft','slideTop','slideRight','slideBottom'
+                        transitionDuration: 500, //anim duration
+                        stagger: 60 //items anim delay
+                    },
+                    hide: {
+                        effect: 'slideRight',
+                        transitionDuration: 100,
+                        stagger: 18
+                    }
+                },
+                filter: {
+                enabled: true,//enabling filter (enabled by default)
+                category: false,//disabling default category dropdown
+                tag: false,//disabling default tag dropdown
+                items: [
+
+                   { name: 'Province',//naming our new filter
+                   options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['Ontario', 'Quebec'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories
+                },   
+{
+                    name: 'Medication',//naming our new filter
+                    options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['PrEP', 'PEP'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories
+                }, 
+{
+                    name: 'Service',//naming our new filter
+                    options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['Clinic', 'Doctor', 'Pharmacy'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories,
+},
+               ]
+            }
+        }
+    }         
+  ]
+};
+</script>
+
+
+
+<script src="https://assets.squarewebsites.org/custom-filter/custom-filter.min.js"></script>
