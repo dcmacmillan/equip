@@ -1,0 +1,100 @@
+<!-- Dropdown Accordion Code --><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+  if(scroll > 50){
+    $('.Header').addClass('scrollNav');
+  }
+  else{
+    $('.Header').removeClass('scrollNav');
+  }
+    
+});
+</script>
+<script>
+  .Header {
+  position: fixed!important;
+  z-index: 1000;
+  width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+  .Index section:first-child:not(.Index-gallery), .Main--page, .Intro, .Main {
+    padding-top: 81px;
+  }
+  .Intro + .Main {
+    padding-top: 0px;
+  }
+  .Header-inner {
+  padding-top: 50px;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.Header.scrollNav {
+  background: #fff!important;
+  padding-bottom: 10px;
+
+  .Header-inner {
+    padding-top: 10px!important;
+  }
+
+  .Header-branding {
+    color: #000;
+  }
+
+  .Header-nav a {
+    color: #000!important;
+
+    &:hover {
+      color: rgba(0,0,0,.6)!important;
+    }
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .Index section:first-child:not(.Index-gallery), .Main--page, .Intro, .Main {
+    padding-top: 81px;
+  }
+
+  .Intro + .Main {
+    padding-top: 0px;
+  }
+}
+}</script>
+<!--Header Injection Tab-->
+<link rel="stylesheet" href="https://assets.squarewebsites.org/custom-filter/custom-filter.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  window.Squarespace.onInitialize(Y, function(){
+    //FAQ toggle
+    $('.html-block li').click(function() {
+      $(this).toggleClass('open').children('ul').slideToggle(); 
+      setTimeout(function(){
+        window.dispatchEvent(new Event('resize'));
+      }, 300);
+    });
+  });
+</script>
+<style>
+#collection-5d6dc70714ca940001b7c390, #collection-5d2e6c0924b18f000180efbd, #collection-5d0ab251a1a2810001be8f5a, #collection-5d0ab25ba1a2810001be900b, #collection-5d7478f697964602d65f3e85, #collection-5d74884ea677d754f44a6dc8, #collection-5d0bd925f202a3000139f4a7, #collection-5d0ab3bcba935f0001b0a620, #collection-5d51625af177080001bbc730, #collection-5d5162ff78ba8f0001e86d82, #collection-5d51631215aeef00017467f5, #collection-5d5163271185ba0001a9dea2, #collection-5d7495bca6aa9d1c2f1f7c3e, #collection-5d516365d032bf000112f3bd, #collection-5d1124b52959550001823313, #collection-5d0ab32f4a6adf0001337cd6, #collection-5d74944e97964602d6608e5b, #collection-5da256216b739e6f84b3970b, #collection-5d74941fa677d754f44af14f, #collection-5d790356d3f25a202df4a932, #collection-5d790332334931050d195708, #collection-5d79037e9986df22c6465492, #collection-5d790345d47e456b0095b569 {
+  .Header-nav--secondary, .Mobile-overlay-nav--secondary {
+    display: none; 
+   }
+ }
+</style>
+
+<script>
+  window.Squarespace.onInitialize(Y, function(){
+    //FAQ toggle
+    $('.html-block li').click(function() {
+      $(this).toggleClass('open').children('ul').slideToggle(); 
+      setTimeout(function(){
+        window.dispatchEvent(new Event('resize'));
+      }, 300);
+    });
+  });
+</script>
+<link rel="stylesheet" href="https://assets.squarewebsites.org/custom-filter/custom-filter.min.css"/>
