@@ -1,0 +1,80 @@
+<!--Header Injection Tab-->
+<link rel="stylesheet" href="https://assets.squarewebsites.org/custom-filter/custom-filter.min.css"/>
+
+<!--Footer Injection Tab-->
+<!--<script src="//unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+<script>
+  window.customFilterSettings = {
+    'targets': [{
+        container: '#block-yui_3_17_2_1_1571341228745_13149',
+        items: '.summary-item',
+        settings: {
+            view: 'modern',//dropdowns, breadcrumbs available
+            mobilePanel: {
+                enabled: true,//enables offscreen filters panel on mobile screens
+                triggerButtonName: 'Filter',// name the trigger button
+                closeOnSelect: true// 
+          position: 'left',
+          advancedMap: {
+            advancedMapContainer: '#block-yui_3_17_2_1_1571341228745_8382'                         },
+            simpleFilter: {
+                    anim: true, //enables animation
+                    show: {
+                        effect: 'slideLeft', //available anims: 'fade','scale','slideLeft','slideTop','slideRight','slideBottom'
+                        transitionDuration: 500, //anim duration
+                        stagger: 60 //items anim delay
+                    },
+                    hide: {
+                        effect: 'slideRight',
+                        transitionDuration: 100,
+                        stagger: 18
+                    }
+                },
+                filter: {
+                enabled: true,//enabling filter (enabled by default)
+                category: false,//disabling default category dropdown
+                tag: false,//disabling default tag dropdown
+                items: [
+
+                   { name: 'Province',//naming our new filter
+                   options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['Ontario', 'Quebec'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories
+                },   
+{
+                    name: 'Medication',//naming our new filter
+                    options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['PrEP', 'PEP'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories
+                }, 
+{
+                    name: 'Service',//naming our new filter
+                    options: [],//we may set predefined options here, but we do not want, let options build from existing 
+                    allowedOptions: ['Clinic', 'Doctor', 'Pharmacy'], // if this is defined, only these options will be added to dropdown if existing in items
+                    logic: 'and',//using 'or' by default 
+                    multiple: true,//allow several items be selected
+                    defined: false,//set the first parameter active
+                    strict: true,//find items stict or like. if false and select Electronic, items with Electronics and Electonics Books will be showed
+                    sort: 'asAllowed',//sort dropdown parameters exactly in the order you set in allowedOptions, by default it sorts in 'asc', you may also set 'desc' here
+                    getAttr: 'categories'//get values from item categories,
+},
+               ]
+            }
+        }
+    }         
+  ]
+};
+</script>
+
+
+<script src="https://assets.squarewebsites.org/custom-filter/custom-filter.min.js"></script>
